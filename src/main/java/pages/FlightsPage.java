@@ -55,6 +55,8 @@ package pages;
 	        wait.until(ExpectedConditions.elementToBeClickable(dateInput)).click();
 	        wait.until(ExpectedConditions.elementToBeClickable(addDates)).click();
 	    }
+	    
+	    
 
 	    public void addTravelersAndSearch() {
 	        driver.findElement(travelersInput).click();
